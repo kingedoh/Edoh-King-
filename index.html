@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <h1 class="logo">KING</h1>
+        <nav>
+            <button onclick="togglePanel('about')" class="nav-btn">About</button>
+            <button onclick="togglePanel('gallery')" class="nav-btn">Gallery</button>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="panel">
+        <h2 class="panel-title">About Me</h2>
+        <p class="tag">Student • Creator • Dreamer</p>
+        <p class="bio">
+            Yo! I’m King — a student with big dreams, creative energy, and a focus on growth.
+            Tap around and get to know my world.
+        </p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="panel">
+        <h2 class="panel-title">My Photos</h2>
+        <div id="galleryContainer" class="gallery"></div>
+        <p class="note">Only King can add photos.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+  </html>
