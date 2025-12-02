@@ -1,0 +1,94 @@
+/* GENERAL SETUP */
+body {
+    margin: 0;
+    background: #000;
+    color: gold;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    border-bottom: 2px solid gold;
+    box-shadow: 0 0 15px gold;
+}
+
+.logo {
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-shadow: 0 0 12px gold;
+}
+
+/* NAV BUTTONS */
+.nav-btn {
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    box-shadow: 0 0 10px gold;
+}
+
+/* PANELS */
+.panel {
+    padding: 25px;
+    display: none;
+    animation: slide 0.4s ease;
+}
+
+@keyframes slide {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.panel-title {
+    font-size: 26px;
+    text-shadow: 0 0 10px gold;
+}
+
+.tag {
+    font-size: 18px;
+    opacity: 0.8;
+    margin-top: -5px;
+}
+
+.bio {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* GALLERY */
+.gallery {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid gold;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px gold;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.6;
+    text-align: center;
+                                           }
