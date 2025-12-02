@@ -24,3 +24,4 @@ images.forEach(url => {
     img.src = url;
     grid.appendChild(img);
 });
+This is shit
