@@ -8,7 +8,7 @@ function togglePanel(id) {
 // Add your GitHub image links here
 const images = [
      //https://raw.githubusercontent.com/kingedoh/Edoh-King-/main/IMG-20250731-WA0004.jpg
-    //
+    //https://raw.githubusercontent.com/kingedoh/Edoh-King-/main/IMG-20250731-WA0006.jpg
 ];
 
 const grid = document.getElementById("gallery-grid");
