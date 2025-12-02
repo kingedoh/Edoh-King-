@@ -13,6 +13,7 @@ const images = [
     //https://raw.githubusercontent.com/kingedoh/Edoh-King-/main/IMG-20250731-WA0010.jpg
     //https://raw.githubusercontent.com/kingedoh/Edoh-King-/main/IMG_0832.JPG
     //https://raw.githubusercontent.com/kingedoh/Edoh-King-/main/IMG_1040.JPG
+    //https://raw.githubusercontent.com/kingedoh/Edoh-King-/main/IMG_1041.JPG
 ];
 
 const grid = document.getElementById("gallery-grid");
